@@ -1,0 +1,995 @@
+*
+{
+	box-sizing: border-box;
+}
+
+body
+{
+	margin: auto;
+}
+
+nav
+{
+	background-color: #C70039;
+	height: 3rem
+}
+
+header
+{
+	background-color: #FFC300;
+	height: 20rem
+}
+
+var:root {
+  --main-color: green;
+  --pane-padding: 5px 1000px;
+}
+
+/*----Fila 1----*/
+.cverde
+{
+	background-color: #18974D;
+	height: 20rem
+}
+.titulo1
+{
+	display: flex;
+	justify-content: center;
+}
+
+div.cverde:hover
+{
+	background-color: #FF5733;
+	color: white;
+}
+
+.cceleste
+{
+	background-color: #3498DB;
+	height: 20rem
+}
+.titulo2
+{
+	display: flex;
+	justify-content: center;
+}
+
+a:active
+{
+	color: #979A9A;
+
+}
+
+.cazul
+{
+	background-color: #1B4F72;
+	height: 20rem
+}
+.texto3
+{
+	color: white;
+}
+.titulo3
+{
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+/* Etiquetas para entradas marcadas */
+input:checked + label
+ {
+  color: #FDFEFE;
+}
+
+/* Elemento Radio, cuando está marcado */
+input[type="radio"]:checked 
+{
+  box-shadow: 0 0 0 3px #E74C3C;
+  padding-left: 1rem;
+}
+
+.clila
+{
+	background-color: #CD5C5C;
+	height: 20rem
+}
+.titulo4
+{	
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+.texto4
+{	
+	color: white;
+}
+input:default
+{
+  box-shadow: 0 0 10px 1px;
+}
+input:default + label 
+{
+  color: black;
+}
+
+/*----Fila 2----*/
+
+.cmarron
+{
+	background-color: #c1272d;
+	height: 20rem
+}
+.titulo5
+{	
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+.texto5
+{	
+	color: white;
+}
+:dir(ltr) 
+{
+  background-color: yellow;
+}
+
+:dir(rtl) {
+  background-color: powderblue;
+}
+
+.cnaranja
+{
+	background-color:#F8C471;
+	height: 20rem
+}
+
+.titulo6
+{	
+	display: flex;
+	justify-content: center;
+	color: black;
+}
+.texto6
+{	
+	color: black;
+}
+.grupo
+{
+	display: flex;
+	justify-content: center;
+}
+.formulario .nombre:focus{
+	border: 3px solid #2980B9;
+}
+.formulario .id:disabled{
+	background: #F39C12;
+}
+
+.cverde2
+{
+	background-color: #117864;
+	height: 20rem;
+
+}
+.titulo7
+{	
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+.texto7
+{	
+	color: white;
+}
+.box {
+  background: pink;
+  height: 70px;
+  width: 70px;
+  margin-left: 1rem;
+  float: left;
+}
+
+.box:empty {
+  background: white;
+}
+.ccian
+{
+	background-color: #F4D03F;
+	height: 20rem
+}
+.titulo8
+{	
+	display: flex;
+	justify-content: center;
+	color: black;
+}
+.texto8
+{	
+	color: black;
+	margin-bottom: 10px;
+}
+input:enabled {
+  color: black;
+}
+
+input:disabled {
+  color: #C0392B;
+}
+
+/*----Fila 3----*/
+.caa1
+{
+	background-color: yellow;
+	height: 20rem
+}
+.titulo9
+{	
+	display: flex;
+	justify-content: center;
+	color: black;
+}
+.texto9
+{	
+	color: black;
+	margin-bottom: 10px;
+}
+@page :first {
+  margin-left: 50%;
+  margin-top: 50%;
+}
+
+p {
+  page-break-after: always;
+}
+.caa2
+{
+	background-color: blue;
+	height: 20rem
+}
+.titulo10
+{	
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+.texto10
+{	
+	color: white;
+	margin-bottom: 10px;
+}
+p:first-child {
+  color: white;
+  background-color: black;
+  padding: 5px;
+}
+.caa3
+{
+	background-color: green;
+	height: 20rem
+}
+.titulo11
+{	
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+.texto11
+{	
+	color: white;
+	margin-bottom: 10px;
+}
+.resal p:first-of-type {
+  color: red;
+  font-style: italic;
+}
+
+.caa4
+{
+	background-color: gray;
+	height: 20rem
+}
+#fullscreen:fullscreen {
+  padding: 42px;
+  background-color: pink;
+  border:2px solid #f00;
+  font-size: 200%;
+}
+
+#fullscreen:fullscreen > h1 {
+  color: red;
+}
+
+#fullscreen:fullscreen > p {
+  color: darkred;
+}
+
+#fullscreen:fullscreen > button {
+  display: none;
+}
+.titulo12
+{	
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+.texto12
+{	
+	color: white;
+	margin-bottom: 10px;
+}
+/*----Fila 4----*/
+.color1
+{
+	background-color: #4A235A;
+	height: 20rem;
+}
+.titulo13
+{	
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+.texto13
+{	
+	color: white;
+	margin-bottom: 10px;
+}
+.red-input:focus {
+  background: #80C1C0;
+  color: red;
+
+}
+
+.blue-input:focus {
+  background: #80C1C0;
+  color: yellow;
+}
+.color2
+{
+	background-color:pink ;
+	height: 20rem
+}
+.titulo14
+{	
+	display: flex;
+	justify-content: center;
+	color: black;
+}
+.texto14
+{	
+	color: black;
+	margin-bottom: 10px;
+}
+input:indeterminate + label {
+  background: lime;
+  color: #C5186E
+}
+.color3
+{
+	background-color:#BC0B63;
+	height: 20rem
+}
+.titulo15
+{	
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+.texto15
+{	
+	color:white;
+	margin-bottom: 10px;
+}
+li {
+  list-style: none;
+  margin-bottom: 1em;
+}
+
+input {
+  border: 1px solid black;
+}
+
+input:in-range {
+  background-color: green;
+}
+
+input:out-of-range {
+  background-color: #BB799A;
+  border: 2px solid white;
+}
+
+input:in-range + label::after {
+  content: 'bien.';
+}
+
+input:out-of-range + label::after {
+  content: 'fuera de rango!';
+}
+.color4
+{
+	background-color: #7995BB;
+	height: 20rem
+}
+.titulo16
+{	
+	display: flex;
+	justify-content: center;
+	color: black;
+}
+.texto16
+{	
+	color:black;
+	margin-bottom: 10px;
+}
+input:invalid {
+  background-color: #ffdddd;
+}
+
+form:invalid {
+  border: 5px solid #ffdddd;
+}
+
+input:valid {
+  background-color: #ddffdd;
+}
+
+form:valid {
+  border: 5px solid #ddffdd;
+}
+
+input:required {
+  border-color: #800000;
+  border-width: 3px;
+}
+
+input:required:invalid {
+  border-color: #C00000;
+}
+
+.color5
+{
+	background-color: #B93053;
+	height: 20rem;
+}
+.titulo17
+{	
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+.texto17
+{	
+	color:white;
+	margin-bottom: 10px;
+}
+:lang(en) > q { quotes: '\201C' '\201D' '\2018' '\2019'; }
+:lang(fr) > q { quotes: '« ' ' »'; }
+:lang(de) > q { quotes: '»' '«' '\2039' '\203A'; }
+.color6
+{
+	background-color:orange;
+	height: 20rem
+}
+.titulo18
+{	
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+.texto18
+{	
+	color:white;
+	margin-bottom: 10px;
+}
+.tex:last-child {
+  color: lime;
+  background-color: black;
+  padding: 5px;
+  margin-bottom: -15px
+}
+.color7
+{
+	background-color: #54A523;
+	height: 20rem
+}
+.titulo19
+{	
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+.texto19
+{	
+	color:white;
+	margin-bottom: 10px;
+}
+.parraf:last-of-type {
+  color: red;
+  font-style: italic;
+}
+.color8
+{
+	background-color: red;
+	height: 20rem;
+}
+.titulo20
+{	
+	display: flex;
+	justify-content: center;
+	color: black;
+}
+.texto20
+{	
+	color:black;
+	margin-bottom: 10px;
+}
+.write { min-width: 15em; }
+.write:-moz-read-write { background: cyan; }
+.write:read-write { background: cyan; }
+
+.rcuadro:-moz-read-write { background: lightgray; }
+.rcuadro:read-write { background: lightgray; }
+.rcuadro[contenteditable="true"] { color: blue; }
+/*----Fila 4----*/
+.colora1
+{
+	background-color:#199E98;
+	height: 20rem
+}
+.titulo21
+{	
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+.texto21
+{	
+	color:white;
+	margin-bottom: 10px;
+}
+a:link {
+  background-color: gold;
+  color: black;
+}
+.colora2
+{
+	background-color:#F0641E;
+	height: 20rem
+}
+.titulo22
+{	
+	display: flex;
+	justify-content: center;
+	color: black;
+}
+.texto22
+{	
+	color:black;
+	margin-bottom: 10px;
+}
+.fancy {
+  text-shadow: 2px 2px 3px gold;
+}
+
+/* elementos <p> que no están en la clase `.fancy` */
+.texto0:not(.fancy) {
+  color: white;
+}
+
+/* Elementos que no son elementos <p> */
+.text0 :not(p) {
+  text-decoration: underline;
+}
+
+/* Elementos que no son elementos <div> o <span> */
+.texto0 :not(div):not(span) {
+  font-weight: bold;
+}
+
+/* Elementos que no son `.crazy` o `.fancy` */
+/* Tenga en cuenta que esta sintaxis aún no está bien soportada. */
+.texto0:not(.crazy, .fancy) {
+  font-family: sans-serif;
+}
+.colora3
+{
+	background-color: #F63E1A;
+	height: 20rem;
+	margin-bottom: 15px
+}
+.titulo23
+{	
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+.texto23
+{	
+	color:white;
+	margin-bottom: 10px;
+}
+
+span,
+div em {
+  padding: 5px;
+  border: 1px solid green;
+  display: inline-block;
+  margin-bottom: 3px;
+}
+
+.first span:nth-child(2n+1),
+.second span:nth-child(2n+1),
+.third span:nth-of-type(2n+1) {
+  background-color: lime;
+}
+.colora4
+{
+	background-color: #CEBFEE;
+	height: 20rem;
+}
+.titulo24
+{	
+	display: flex;
+	justify-content: center;
+	color: black;
+}
+.texto24
+{	
+	color:black;
+	margin-bottom: 10px;
+}
+table {
+  border: 1px solid blue;
+  margin-left: 5rem;
+  margin-top: -5px;
+}
+
+/* Selecciona los últimos tres elementos */
+tr:nth-last-child(-n+3) {
+  background-color: yellow;
+}
+
+/* Toma todos los elementos a partir del penúltimo elemento */
+tr:nth-last-child(n+2) {
+  color: blue;
+}
+
+/* Seleccione solo el penúltimo elemento */
+tr:nth-last-child(2) {
+  font-weight: 600;
+}
+/*----Fila 5----*/
+.colora5
+{
+	background-color:#C0392B;
+	height: 20rem;
+}
+.titulo25
+{	
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+.texto25
+{	
+	color:white;
+
+}
+
+span:nth-last-of-type(2) {
+  background-color: lime;
+}
+.colora6
+{
+	background-color:#B3B81B;
+	height: 20rem;
+}
+.titulo26
+{	
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+.texto26
+{	
+	color:white;
+	margin-bottom: -1.2rem;
+}
+/* Párrafos impares */
+.gg:nth-of-type(2n+1) {
+  color: red;
+}
+
+/* Párrafos pares */
+.gg:nth-of-type(2n) {
+  color: blue;
+}
+
+/* Primer párrafo */
+.g:nth-of-type(1) {
+  font-weight: bold;
+}
+.colora7
+{
+	background-color:#07C933;
+	height: 20rem;
+}
+.titulo27
+{	
+	display: flex;
+	justify-content: center;
+	color: black;
+}
+.texto27
+{	
+	color:black;
+	margin-bottom: -1.2rem;
+}
+.po {
+  list-style-type: disc;
+  margin-top: -1rem
+}
+.cap:only-child {
+  color: red;
+  list-style-type: square;
+}
+.colora8
+{
+	background-color:#8AC2C2;
+	height: 20rem;
+}
+.titulo28
+{	
+	display: flex;
+	justify-content: center;
+	color: black;
+}
+.texto28
+{	
+	color:black;
+}
+main :only-of-type {
+  color: red;
+}
+/*----Fila 6----*/
+.caja1
+{
+	background-color:#117864;
+	height: 20rem;
+}
+.optional:optional {
+  border: 2px double black;
+}
+.caja2
+{
+	background-color:#F4D03F;
+	height: 20rem;
+}
+.titulo29
+{	
+	display: flex;
+	justify-content: center;
+	color: black;
+}
+.texto29
+{	
+	color:black;
+}
+li {
+  list-style: none;
+  margin-bottom: 1em;
+}
+
+input {
+  border: 1px solid black;
+}
+
+input:in-range {
+  background-color: rgba(0, 255, 0, 0.25);
+}
+
+input:out-of-range {
+  background-color: rgba(255, 0, 0, 0.25);
+  border: 2px solid red;
+}
+
+input:in-range + label::after {
+  content: 'bien.';
+}
+
+input:out-of-range + label::after {
+  content: '¡fuera de rango!';
+}
+.caja3
+{
+	background-color:#2471A3;
+	height: 20rem;
+}
+.relleno:-moz-read-only { background: cyan; }
+.relleno:read-only { background: cyan; }
+
+.aca:-moz-read-only { background: lightgray; }
+.aca:read-only { background: lightgray; }
+.aca[contenteditable="true"] { color: white; }
+.titulo30
+{	
+	display: flex;
+	justify-content: center;
+	color: black;
+}
+.texto30
+{	
+	color:black;
+}
+.caja4
+{
+	background-color:#A7B1B7;
+	height: 20rem;
+}
+.titulo31
+{	
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+.texto31
+{	
+	color:white;
+}
+.requi:invalid {
+  background-color: #D1C9D5;
+}
+
+.requeri:invalid {
+  border: 5px solid #ffdddd;
+}
+
+.requi:valid {
+  background-color: #ddffdd;
+}
+
+.requeri:valid {
+  border: 5px solid #ddffdd;
+}
+
+.requi:required {
+  border-color: black;
+  border:double 2px;
+}
+
+.requi:required:invalid {
+  border-color: #C00000;
+}
+
+/*----Fila 7----*/
+.caja5
+{
+	background-color:#15D157;
+	height: 20rem
+}
+.titulo32
+{	
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+.texto32
+{	
+	color:white;
+}
+
+.caja6
+{
+	background-color:#9D2F72;
+	height: 20rem
+}
+.titulo33
+{	
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+.texto33
+{	
+	color:white;
+}
+.caja7
+{
+	background-color:#442B76;
+	height: 20rem
+}
+.titulo34
+{	
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+.texto34
+{	
+	color:white;
+}
+.caja8
+{
+	background-color:#84A09D;
+	height: 20rem
+}
+.titulo35
+{	
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+.texto35
+{	
+	color:white;
+}
+.target22:target {
+  background-color: gold;
+}
+
+/* Agrega un pseudo-elemento dentro del elemento de destino */
+.target22:target::before {
+  font: 10% sans-serif;
+  content: "►";
+  color: limegreen;
+  margin-right: .25em;
+}
+
+/* Estilo de elementos en cursiva dentro del elemento de destino */
+.target22:target i {
+  color: red;
+}
+h4
+{
+	margin-top: -2em;
+}
+.cajaa
+{
+	background-color:#EBAA3F;
+	height: 20rem
+}
+valid:valid {
+  background-color: blue;
+  color: black
+}
+
+.cajaw
+{
+	background-color:#EE8832 ;
+	height: 20rem
+}
+.titulo36
+{	
+	display: flex;
+	justify-content: center;
+	color: black;
+}
+.texto36
+{	
+	color:black;
+}
+.viisi 
+{
+  /* Especifique los valores predeterminados no transparentes a ciertas propiedades,
+     lo que les permite ser diseñado con el estado :visited */
+  background-color: white;
+  border: 1px solid white;
+
+}
+
+.viisi:visited {
+  background-color: white;
+  border-color: black;
+  color: red;
+}
+.cajar
+{
+	background-color:#47B02B;
+	height: 20rem
+}
+.cajat
+{
+	background-color:#EEDD32;
+	height: 20rem
+}
